@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\황정곤 이력서\\포트폴리오\\TestClient\\TestClient.csproj": {}
+  },
+  "projects": {
+    "E:\\황정곤 이력서\\포트폴리오\\TestClient\\TestClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\황정곤 이력서\\포트폴리오\\TestClient\\TestClient.csproj",
+        "projectName": "TestClient",
+        "projectPath": "E:\\황정곤 이력서\\포트폴리오\\TestClient\\TestClient.csproj",
+        "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
+        "outputPath": "E:\\황정곤 이력서\\포트폴리오\\TestClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
