@@ -11,5 +11,9 @@
     <Compile Include="..\common\Protocol.cs" />
 	<Compile Include="..\common\Define.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 	
 </Project>
