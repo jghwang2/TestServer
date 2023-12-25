@@ -5,11 +5,12 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestServer", "TestServer.csproj", "{48B4DDC9-B4FE-412E-9FE4-0E1D6F21155A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "..\TestClient\TestClient.csproj", "{412C281F-5D60-4D8B-8794-EA39C8D74F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "..\TestClient\TestClient.csproj", "{412C281F-5D60-4D8B-8794-EA39C8D74F21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{CB5C7E26-B601-4E9F-BDFF-5100771FFFA1}"
 	ProjectSection(SolutionItems) = preProject
 		..\common\Define.cs = ..\common\Define.cs
+		..\common\Protocol.cs = ..\common\Protocol.cs
 	EndProjectSection
 EndProject
 Global
