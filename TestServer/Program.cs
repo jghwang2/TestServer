@@ -48,14 +48,23 @@ static class Program
             .ConfigureSuperSocket(options =>
             {
                 options.Name = config.Name;
-                options.Listeners = new List<ListenOptions>();
+                options.MaxPackageLength = config.MaxPackageLength;
+                options.ReceiveBufferSize = config.ReceiveBufferSize;
+                options.ReceiveTimeout = config.ReceiveTimeout;
+                options.SendBufferSize = config.SendBufferSize;
+                options.SendTimeout = config.SendTimeout;
 
+                options.Listeners = new List<ListenOptions>();
                 foreach(var listen in config.Listeners)
                 {
                     options.AddListener(new ListenOptions
                     {
                         Ip = listen.Ip,
-                        Port = listen.Port
+                        Port = listen.Port,
+                        BackLog = listen.BackLog,
+                        NoDelay = listen.NoDelay,
+                        Security = listen.Security,
+                        CertificateOptions = listen.CertificateOptions,
                     });
                 };
             }).Build();
