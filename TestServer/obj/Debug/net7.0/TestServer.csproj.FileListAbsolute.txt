@@ -1,5 +1,0 @@
-E:\황정곤 이력서\포트폴리오\ConsoleApp1\obj\Debug\net7.0\TestServer.csproj.AssemblyReference.cache
-E:\황정곤 이력서\포트폴리오\ConsoleApp1\obj\Debug\net7.0\TestServer.GeneratedMSBuildEditorConfig.editorconfig
-E:\황정곤 이력서\포트폴리오\ConsoleApp1\obj\Debug\net7.0\TestServer.AssemblyInfoInputs.cache
-E:\황정곤 이력서\포트폴리오\ConsoleApp1\obj\Debug\net7.0\TestServer.AssemblyInfo.cs
-E:\황정곤 이력서\포트폴리오\ConsoleApp1\obj\Debug\net7.0\TestServer.csproj.CoreCompileInputs.cache
