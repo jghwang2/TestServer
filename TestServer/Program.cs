@@ -22,7 +22,7 @@ static class Program
             {
                 loggingBuilder.AddConsole();
             })
-            .BuildAsServer();
+            .Build();
 
         server.StartAsync();
 

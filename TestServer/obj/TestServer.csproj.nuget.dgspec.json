@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\TestServer.csproj": {}
+    "E:\\황정곤 이력서\\포트폴리오\\TestServer\\TestServer.csproj": {}
   },
   "projects": {
-    "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\TestServer.csproj": {
+    "E:\\황정곤 이력서\\포트폴리오\\TestServer\\TestServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\TestServer.csproj",
+        "projectUniqueName": "E:\\황정곤 이력서\\포트폴리오\\TestServer\\TestServer.csproj",
         "projectName": "TestServer",
-        "projectPath": "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\TestServer.csproj",
+        "projectPath": "E:\\황정곤 이력서\\포트폴리오\\TestServer\\TestServer.csproj",
         "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
-        "outputPath": "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\obj\\",
+        "outputPath": "E:\\황정곤 이력서\\포트폴리오\\TestServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",

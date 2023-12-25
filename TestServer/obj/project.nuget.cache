@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "frkf9d2NlQ7GWJybR98pmEXofgTCkzlFA9rUw4X7OnFkh0EE03nDWoPP0DpZl9haTGAwEr/gWqX6arcQNqSb6A==",
+  "dgSpecHash": "VxwicI7k5ciNfTyWAu2NkZFT9K0ZKS8lavCV3nCkrQV1QPpwZY9GZGkDxUBbqeAWYtP5eirfgBXXPuMVS6LPKA==",
   "success": true,
-  "projectFilePath": "E:\\황정곤 이력서\\포트폴리오\\ConsoleApp1\\TestServer.csproj",
+  "projectFilePath": "E:\\황정곤 이력서\\포트폴리오\\TestServer\\TestServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\power\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.10\\microsoft.extensions.configuration.3.1.10.nupkg.sha512",
     "C:\\Users\\power\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.10\\microsoft.extensions.configuration.abstractions.3.1.10.nupkg.sha512",

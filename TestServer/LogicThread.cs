@@ -22,8 +22,11 @@ namespace TestServer
             while (true)
             {
                 Thread.Sleep(1);
-                var msg = msgQueue.Dequeue();
-                ProcessPacket(msg);
+                if (msgQueue != null)
+                {
+                    var msg = msgQueue.Dequeue();
+                    ProcessPacket(msg);
+                }
             }
         }
 

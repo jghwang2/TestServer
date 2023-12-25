@@ -1,2 +1,12 @@
 ﻿SuperSocket-master
 SuperSocket-master.zip
+TestClient/bin/Debug/net7.0/TestClient.dll
+TestClient/obj/Debug/net7.0/ref/TestClient.dll
+TestClient/obj/Debug/net7.0/refint/TestClient.dll
+TestClient/obj/Debug/net7.0/TestClient.dll
+TestServer/bin/Debug/net6.0/TestServer.dll
+TestServer/bin/Debug/net6.0/TestServer.exe
+TestServer/bin/Debug/net6.0/TestServer.pdb
+TestServer/bin
+TestClient/bin
+TestServer/.vs/MyServer/FileContentIndex/81ae2b35-f6f3-441a-a83c-ffa571aa971d.vsidx

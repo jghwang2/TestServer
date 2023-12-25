@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Net;
 using System.Net.Sockets;
 
 static class Program
 {
-    static async void Main()
+    static void Main()
     {
         var client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        await client.ConnectAsync()
+        client.Connect(new IPEndPoint(IPAddress.Loopback, 20000));
     }
 };

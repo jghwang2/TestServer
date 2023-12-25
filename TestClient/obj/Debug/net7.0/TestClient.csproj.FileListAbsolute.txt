@@ -12,3 +12,4 @@ E:\황정곤 이력서\포트폴리오\TestClient\obj\Debug\net7.0\refint\TestCl
 E:\황정곤 이력서\포트폴리오\TestClient\obj\Debug\net7.0\TestClient.pdb
 E:\황정곤 이력서\포트폴리오\TestClient\obj\Debug\net7.0\TestClient.genruntimeconfig.cache
 E:\황정곤 이력서\포트폴리오\TestClient\obj\Debug\net7.0\ref\TestClient.dll
+E:\황정곤 이력서\포트폴리오\TestClient\obj\Debug\net7.0\TestClient.sourcelink.json
