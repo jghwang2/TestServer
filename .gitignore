@@ -13,3 +13,6 @@ TestServer/.vs/MyServer/FileContentIndex/81ae2b35-f6f3-441a-a83c-ffa571aa971d.vs
 TestServer/.vs
 TestServer/obj
 TestClient/obj
+common/protobuf/include
+protoc-25.1-win64
+protoc-25.1-win64.zip

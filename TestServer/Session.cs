@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestServer
 {
-    internal class Session : AppSession
+    class Session : AppSession
     {
         int heartbeatCount { get; set; }
 
@@ -24,10 +24,5 @@ namespace TestServer
         }
 
         public int GetHeartbeatCount() {  return heartbeatCount; }
-
-        internal async ValueTask FireSessionConnectedAsync()
-        {
-            heartbeatCount = 0;
-        }
     }
 }

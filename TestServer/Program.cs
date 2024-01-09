@@ -18,13 +18,22 @@ static class Program
             {
                 var json = (JObject)JToken.ReadFrom(reader);
                 var option = json["serverOptions"];
-                config.Name = option["name"].ToString();
+                if (option == null) return;
 
-                foreach (var listen in option["listeners"])
+                config.Name = option["name"]?.ToString();
+                var listerList = option["listeners"];
+                if(listerList == null) return;
+
+                foreach (var listen in listerList)
                 {
+                    if(listen == null) continue;
+
                     var listener = new ListenOptions();
-                    listener.Ip = listen["ip"].ToString();
-                    listener.Port = (int)listen["port"];
+                    listener.Ip = listen["ip"]?.ToString();
+                    var port = listen["port"];
+                    if (port == null) return;
+
+                    listener.Port = (int)port;
                     config.AddListener(listener);
                 }
 

@@ -10,6 +10,7 @@
   <ItemGroup>
 	<Compile Include="..\common\Protocol.cs" />
 	<Compile Include="..\common\Define.cs" />
+	<PackageReference Include="Google.Protobuf" Version="3.25.1" />
 	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="SuperSocket" Version="2.0.0-beta.18" />
   </ItemGroup>

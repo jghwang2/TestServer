@@ -1,0 +1,22 @@
+syntax = "proto3";
+package Protocol;
+
+//import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "Google.Protobuf.Protocol";
+
+message CG_HEARTBEAT_SYNC_REQ {
+}
+
+message CG_HEARTBEAT_SYNC_RES {
+	int32 errorCode = 1;
+	int32 count = 2;
+}
+
+message CG_HEARTBEAT_ASYNC_REQ {
+}
+
+message CG_HEARTBEAT_ASYNC_RES {
+	int32 errorCode = 1;
+	int32 count = 2;
+}

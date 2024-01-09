@@ -10,7 +10,6 @@ namespace TestServer
     internal class LogicThread
     {
         Thread thread;
-        Queue<Protocol.Protocol> msgQueue;
 
         public LogicThread()
         {
@@ -21,12 +20,6 @@ namespace TestServer
         {
             while (true)
             {
-                Thread.Sleep(1);
-                if (msgQueue != null)
-                {
-                    var msg = msgQueue.Dequeue();
-                    ProcessPacket(msg);
-                }
             }
         }
 
@@ -35,22 +28,27 @@ namespace TestServer
             thread.Start();
         }
 
-        public Task<common.ErrorCode> ProcessPacket(Protocol.Protocol msg)
+        public Task<common.ErrorCode> ProcessPacket(byte[] msg)
         {
+            /*
             switch(msg.packetType)
             {
                 case Protocol.PacketType.CG_HEARTBEAT_ASYNC_REQ:
                 {
-                    var packet = (Protocol.CG_HEARTBEAT_ASYNC_REQ)msg;
-                    break;
+                    var packet = msg as Protocol.CG_HEARTBEAT_ASYNC_REQ;
+                    if (null == packet)
+                        break;
                 }
+                    break;
                 case Protocol.PacketType.CG_HEARTBEAT_SYNC_REQ:
                 {
-                    var packet = (Protocol.CG_HEARTBEAT_SYNC_REQ)msg;
-                    break;
+                    var packet = msg as Protocol.CG_HEARTBEAT_SYNC_REQ;
+                    if (null == packet)
+                        break;
                 }
+                    break;
             }
-
+            */
             return Task.FromResult(common.ErrorCode.NoError);
         }
     }
